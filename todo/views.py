@@ -1,6 +1,6 @@
 # Create your views here.
 from django.shortcuts import render
-from example.todo.models import Task
+from del3.todo.models import Task
 
 def overview (request):
     
