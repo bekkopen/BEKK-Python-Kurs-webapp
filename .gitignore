@@ -1,0 +1,7 @@
+*~
+*.sw?
+*.sqlite3
+*.pyc
+.project
+.pydevproject
+.DS_STORE
