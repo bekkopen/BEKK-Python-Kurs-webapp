@@ -2,6 +2,14 @@
 
 {% block content %}
     <h2>Tasks</h2>
+    <p>Add new:</p>
+    <form action="" method="POST">
+        {{ form.as_p }}
+    
+        {% csrf_token %}
+        <input type="submit" value="Add it!">
+    </form>
+    
     <ul>
         {% for task in tasks %}
             <li>{{ task }}</li>
