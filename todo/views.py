@@ -6,8 +6,6 @@ from del3.todo.forms import TaskForm
 
 def overview (request):
     
-    
-    
     if request.method == "POST":
         form = TaskForm(request.POST)
         
