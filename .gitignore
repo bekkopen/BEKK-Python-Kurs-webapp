@@ -5,5 +5,3 @@
 .project
 .pydevproject
 .DS_STORE
-venv
-heroku-env
